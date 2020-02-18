@@ -1,18 +1,20 @@
-/* THX Google*/
+/* Includes the padding in the dimensions of the boxes*/
 * {
   box-sizing: border-box;
 }
 
 body{
-  max-width: 1020px;
+  max-width: 2000px;
   min-height: 1020px;
   font-family: sans-serif;
+  margin: 0 auto;
+
 }
 
 .container{
   position: relative;
   text-align: center;
-  color: azure
+  color: azure;
 }
 
 .centered{
@@ -61,7 +63,7 @@ section{
 }
 
 #Art1{
-  background-color: mintcream;
+  background-color: peachpuff;
   width: 50%;
   min-height: 80%;
   float: left;
@@ -85,7 +87,7 @@ section{
 }
 
 /* THX Google*/
-/* Clear floats after the columns */
+/* Adds a clear above the footer */
 main:after {
   content: "";
   display: table;
