@@ -9,7 +9,7 @@ body{
   font-family: sans-serif;
 }
 
-.container{
+.imageContainer{
   position: relative;
   text-align: center;
   color: azure
@@ -41,7 +41,7 @@ main{
 
 #leftAside{
   float: left;
-  height: 670px;
+  min-height: 670px;
   width: 33%;
   background-color: deepskyblue;
   padding: 2%
@@ -50,9 +50,9 @@ main{
 section{
   float:left;
   width: 67%;
-  height: 670px;
+  min-height: 670px;
   background-color: greenyellow;
-  padding: 2%;
+  padding: 0%;
 }
 
 #topFloat{
@@ -81,6 +81,7 @@ section{
   float: right;
   min-height: 20%;
   width: 50%;
+  padding: 2%;
 }
 
 /* THX Google*/
