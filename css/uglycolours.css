@@ -1,0 +1,32 @@
+header{
+  background-color: beige;
+}
+
+main{
+  background-color: yellow;
+}
+
+#leftColumn{
+  background-color: aqua;
+}
+
+#rightColumn{
+  background-color: lightgreen;
+}
+
+footer{
+  background-color: mediumvioletred;
+}
+
+#leftFooter{
+  background-color: darkslateblue;
+}
+
+#RightFooter{
+  background-color: sandybrown;
+}
+
+
+nav ul{
+    background-color: black;
+}

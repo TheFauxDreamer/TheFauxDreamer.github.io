@@ -1,0 +1,43 @@
+header{
+  background-color: #E9AFA3;
+}
+
+main{
+  background-color: #564D80;
+}
+
+#leftColumn{
+  background-color: #DEC0F1;
+}
+
+#rightColumn{
+  background-color: #957FEF;
+}
+
+footer{
+  background-color: #B79CED;
+}
+
+#leftFooter{
+  background-color: #E899DC;
+}
+
+#RightFooter{
+  background-color: #FEC9F1;
+}
+
+nav ul{
+    background-color: #B279A7;
+}
+
+
+
+
+/***** THIS IS A CLASS TO MAKE ALL ATTACHED BOXES Nuemorphic******/
+
+.Nuemorphism{
+  padding: 25px;
+  border-radius: 50px;
+  background: #DEC0F1;
+  box-shadow:  5px 5px 15px #bfa5cf, -5px -5px 15px #fddbff;
+}
