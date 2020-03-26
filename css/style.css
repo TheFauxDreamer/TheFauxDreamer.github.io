@@ -20,6 +20,7 @@ h1{
 
 body{
   background-image: linear-gradient(lightpink, floralwhite);
+  background-repeat: no-repeat;
 }
 
 /************* BONUS END ***************/
