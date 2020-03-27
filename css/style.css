@@ -28,7 +28,7 @@ body{
 /************* BONUS END ***************/
 
 .outer{
-  width: 1020px;
+  max-width: 1020px;
   margin: auto;
 }
 
