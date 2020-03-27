@@ -1,3 +1,5 @@
+/* This stylesheet is used to colour the boxes in a more themed colour scheme*/
+
 header{
   background-color: #E9AFA3;
 }
@@ -33,7 +35,7 @@ nav ul{
 
 
 
-/***** THIS IS A CLASS TO MAKE ALL ATTACHED BOXES Nuemorphic******/
+/***** THIS IS A CLASS TO MAKE ALL ATTACHED BOXES Nuemorphic (if I add the class)******
 
 .Nuemorphism{
   padding: 25px;
@@ -41,3 +43,4 @@ nav ul{
   background: #DEC0F1;
   box-shadow:  5px 5px 15px #bfa5cf, -5px -5px 15px #fddbff;
 }
+*/
