@@ -1,37 +1,36 @@
 /* This stylesheet is used to colour the boxes in a more themed colour scheme*/
 
 header{
-  background-color: #E9AFA3;
+  background-color: #9EDEEF;
 }
 
 main{
-  background-color: #564D80;
+  background-color: #AFEDFF;
 }
 
 #leftColumn{
-  background-color: #DEC0F1;
+  background-color: #3EBDE0;
 }
 
 #rightColumn{
-  background-color: #957FEF;
+  background-color: #3EBDE0;
 }
 
 footer{
-  background-color: #B79CED;
+  background-color: #2A859E;
 }
 
 #leftFooter{
-  background-color: #E899DC;
+  background-color: #AFEDFF;
 }
 
 #RightFooter{
-  background-color: #FEC9F1;
+  background-color: #AFEDFF;
 }
 
 nav ul{
-    background-color: #B279A7;
+    background-color: #2A859E;
 }
-
 
 
 
