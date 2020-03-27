@@ -26,7 +26,7 @@ h1{
 
 body{
   /* Personally prefer the gradient but the assignment wants an image*/
-  /*background-image: linear-gradient(lightpink, floralwhite);*/
+  /*background-image: linear-gradient(#9EDEEF, #2A859E);*/
   background-image: url(../images/bg.jpg);
   background-repeat: no-repeat;
 }
