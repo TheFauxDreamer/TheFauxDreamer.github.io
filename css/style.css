@@ -1,3 +1,4 @@
+/* This is the main stylesheet*/
 /************ BONUS STUFF *************/
 
 /* Includes the padding in the dimensions of the boxes*/
@@ -12,7 +13,12 @@
   font-family: sans-serif;
 }
 
-/* Makes the Header do what I want */
+.outer{
+  max-width: 1020px;
+  margin: auto;
+}
+
+/* Makes the Header kinda do what I want */
 h1{
   margin: auto; /* Important */
   text-align: center;
@@ -27,10 +33,7 @@ body{
 
 /************* BONUS END ***************/
 
-.outer{
-  max-width: 1020px;
-  margin: auto;
-}
+/********* HEADER **********/
 
 header{
   width: 100%;
@@ -38,6 +41,7 @@ header{
   display: flex;
 }
 
+/* Even when removing the border-box I can't get the title to be centred*/
 header img{
   height: 100px;
   width: 100px;
@@ -120,6 +124,10 @@ footer{
   float: right;
   text-align: right;
   padding: 14px 14px;
+}
+
+span{
+  color: white;
 }
 
 /************* FOOTER END ***************/
