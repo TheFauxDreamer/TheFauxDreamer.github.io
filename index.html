@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1><span>The </span>HTML5 <img src="images/logo.png" alt=""> Her­ald</h1>
+      <h2 class="tagline">pro­duced with that good ol' timey html5 &amp; css3</h2>
+      <p id="vol">Vol. MMXX</p>
+      <p id="issue">June 4, 1904</p>
+    </header>
+
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sign Up</a></li>
+        </ul>
+      </nav>
+
+  <div id="main">
+    <div id="primary">
+      <article id="ac1">
+        <div id="video-container">
+          <video width="373" height="280" preload id="video" poster="images/fordplane-still.png" controls>
+          <!-- MP4 must be first for iPad! -->
+            <source src="media/ford-plane-takes-off.mp4" type="video/mp4"><!-- Safari
+            / iOS video -->
+            <source src="media/ford-plane-takes-off.ogv" type="video/ogg"><!--
+            Firefox / Opera / Chrome10 -->
+            <!-- fallback to Flash: -->
+            <object width="373" height="280" type="application/x-shockwave-flash" data="jwplayer/player.swf">
+              <!-- Firefox uses the ‘data’ attribute above, IE/Safari uses the param
+              below -->
+              <param name="movie" value="jwplayer/player.swf" >
+              <param name="allowFullScreen" value="true" >
+              <param name="wmode" value="transparent" >
+              <param name="flashvars" value="controlbar=over&amp;image=images/fordplane-still.png&amp;file=../media/ford-plane-takes-off.mp4">
+              <!-- fallback image. note the title field below, put the title of the video there -->
+              <img src="images/ford-plane-still.png" id="video-still" width="373" height="280" alt="Airplane" title="No video playback capabilities, please download the video below">
+            </object>
+          </video>
+          <div id="controls" class="hidden">
+            <div id="playPause" class="paused" tabindex="1">Play/Pause</div>
+            <div id="timer">00:00</div>
+            <div id="muteUnmute" class="unmuted" tabindex="2">Mute/Unmute</div>
+          </div><!-- #controls -->
+        </div>
+
+        <h1>Video is the final fron­tier, and now we have con­quered it!</h1>
+          <div class="content">
+            <p>Ali­quam erat vo­lut­pat. Mau­ris vel neque sit amet nunc gravida congue sed sit amet purus. Quisque lacus quam, eges­tas ac tin­cidunt a, lacinia vel velit. Morbi ac com­modo nulla.</p>
+            <p>In condi­men­tum orci id nisl vo­lut­pat biben­dum. Quisque com­modo hen­drerit lorem quis eges­tas. Vi­va­mus rutrum nunc non neque con­secte­tur quis plac­erat neque lobor­tis. Nam vestibu­lum, arcu so­dales feu­giat con­secte­tur, nisl orci biben­dum elit, eu eu­is­mod magna sapien ut nibh. Ali­quam erat vo­lut­pat. Mau­ris vel neque sit amet nunc gravida congue sed sit amet purus.</p>
+            <p>Quisque lacus quam, eges­tas ac tin­cidunt a, lacinia vel velit. Morbi ac com­modo nulla. In condi­men­tum orci id nisl vo­lut­pat biben­dum. Quisque com­modo hen­drerit lorem quis eges­tas. Vi­va­mus rutrum nunc non neque con­secte­tur quis plac­erat neque lobor­tis. Nam vestibu­lum, arcu so­dales feu­giat con­secte­tur, nisl orci biben­dum elit, eu eu­is­mod magna sapien ut nibh.</p>
+            <p>Neque sit amet nunc gravida congue sed sit amet purus. Quisque lacus quam, eges­tas ac tin­cidunt a, lacinia vel velit. Morbi ac com­modo nulla. In condi­men­tum orci id nisl vo­lut­pat biben­dum. Quisque com­modo hen­drerit lorem quis eges­tas. Vi­va­mus rutrum nunc non neque con­secte­tur quis plac­erat neque lobor­tis. Nam vestibu­lum, arcu so­dales feu­giat con­secte­tur, nisl orci biben­dum elit, eu eu­is­mod magna sapien ut nibh.</p>
+          </div>
+      </article>
+      <article>
+        <h1>Great Things Are Pos­si­ble with CSS Columns! Pip Pip Pip!</h1>
+        <div class="content">
+          <p>Mae­ce­nas quis tor­tor arcu. Vi­va­mus rutrum nunc non neque con­secte­tur quis plac­erat neque lobor­tis. Nam vestibu­lum, arcu so­dales feu­giat con­secte­tur, nisl orci biben­dum elit, eu eu­is­mod magna sapien ut nibh.</p>
+          <p>Nunc eu ul­lam­cor­per orci. Quisque eget odio ac lec­tus vestibu­lum fau­cibus eget in metus. In pel­len­tesque fau­cibus vestibu­lum. Nulla at nulla justo, eget luc­tus tor­tor. Nulla fa­cil­isi. Duis ali­quet eges­tas purus in blandit. </p>
+          <p>Quisque lacus quam, eges­tas ac tin­cidunt a, lacinia vel velit. Morbi ac com­modo nulla. In condi­men­tum orci id nisl vo­lut­pat biben­dum. Quisque com­modo hen­drerit lorem quis eges­tas. Vi­va­mus rutrum nunc non neque con­secte­tur quis plac­erat neque lobor­tis. Nam vestibu­lum, arcu so­dales feu­giat con­secte­tur, nisl orci biben­dum elit, eu eu­is­mod magna sapien ut nibh.</p>
+          <p>Neque sit amet nunc gravida congue sed sit amet purus. Quisque lacus quam, eges­tas ac tin­cidunt a, lacinia vel velit. Morbi ac com­modo nulla. In condi­men­tum orci id nisl vo­lut­pat biben­dum. Quisque com­modo hen­drerit lorem quis eges­tas. Vi­va­mus rutrum nunc non neque con­secte­tur quis plac­erat neque lobor­tis. Nam vestibu­lum, arcu so­dales feu­giat con­secte­tur, nisl orci biben­dum elit, eu eu­is­mod magna sapien ut nibh.</p>
+          <p>Nunc eu ul­lam­cor­per orci. Quisque eget odio ac lec­tus vestibu­lum fau­cibus eget in metus. In pel­len­tesque fau­cibus vestibu­lum. Nulla at nulla justo, eget luc­tus tor­tor. Nulla fa­cil­isi. Duis ali­quet eges­tas purus in blandit. </p>
+        </div>
+      </article>
+    </div>
+    <div id="secondary">
+
+      <article id="ac2">
+        <header>
+          <h1>Text Shadow is the New Black</h1>
+          <h2>How do we do it?</h2>
+        </header>
+        <div class="content">
+          <p>Mae­ce­nas quis tor­tor arcu. Vi­va­mus rutrum nunc non neque con­secte­tur quis plac­erat neque lobor­tis. Nam vestibu­lum, arcu so­dales feu­giat con­secte­tur, nisl orci biben­dum elit, eu eu­is­mod magna sapien ut nibh.</p>
+          <p>Nunc eu ul­lam­cor­per orci. Quisque eget odio ac lec­tus vestibu­lum fau­cibus eget in metus. In pel­len­tesque fau­cibus vestibu­lum. Nulla at nulla justo, eget luc­tus tor­tor. Nulla fa­cil­isi. Duis ali­quet eges­tas purus in blandit. </p>
+        </div>
+      </article>
+
+      <article id="ac3">
+        <h1>Wai-Aria? HAHA!</h1>
+        <h2 id="catHeading">Form Ac­ces­si­bil­ity</h2>
+
+        <img src="images/cat.png" id="cat" alt="WAI-ARIA Cat">
+        <div class="content">
+          <p>Mae­ce­nas quis tor­tor arcu. Vi­va­mus rutrum nunc non neque con­secte­tur quis plac­erat neque lobor­tis. Nam vestibu­lum, arcu so­dales feu­giat con­secte­tur, nisl orci biben­dum.</p>
+          <p>Nam vestibu­lum, arcu so­dales feu­giat.</p>
+        </div>
+        </article>
+
+      <article id="ac4">
+        <h1>Mod­ern­izr Times</h1>
+        <p>A New Era</p>
+
+        <div class="content">
+          <p>Mae­ce­nas quis tor­tor arcu. Vi­va­mus rutrum nunc non neque con­secte­tur quis plac­erat neque lobor­tis. Nam vestibu­lum, arcu so­dales feu­giat con­secte­tur, nisl orci biben­dum.</p>
+          <p>Nunc eu ul­lam­cor­per orci. Quisque eget odio ac lec­tus vestibu­lum fau­cibus eget in metus. In pel­len­tesque fau­cibus vestibu­lum. Nulla at nulla justo, eget luc­tus tor­tor. Nulla fa­cil­isi. Duis ali­quet eges­tas purus in blandit. </p>
+        </div>
+      </article>
+
+    </div>
+
+    <div id="tertiary">
+      <aside>
+
+        <article id="ad1">
+          <h1>Wanted</h1>
+          <p>Dead or Alive</p>
+          <a href = "#" class="wanted"> &lt;HTML5&gt; & {CSS3}</a>
+          <p>Reward: Happiness and satisfaction</p>
+        </article>
+
+        <article id="ad2">
+          <h1>Put your <span>dukes</span> up sire</h1>
+          <p>It’s time for a good old thrashing.<br> I will rotate your moustache OFF!</p>
+        </article>
+
+        <article id="ad3">
+          <h1><a href="#">HTML5 and CSS3 <br/> Now in Book Form! </a></h1>
+        </article>
+
+      </aside>
+        <article id="ac5">
+          <header>
+            <h1>CSS Tran­si­tions - The State of Play</h1>
+            <h2>The fu­ture?</h2>
+          </header>
+
+          <div class="content">
+            <p>Mae­ce­nas quis tor­tor arcu. Vi­va­mus rutrum nunc non neque con­secte­tur quis plac­erat neque lobor­tis. Nam vestibu­lum, arcu so­dales feu­giat con­secte­tur, nisl orci biben­dum elit, eu eu­is­mod magna sapien ut nibh.</p>
+            <p>Nunc eu ul­lam­cor­per orci. Quisque eget odio ac lec­tus vestibu­lum fau­cibus eget in metus. In pel­len­tesque fau­cibus vestibu­lum.</p>
+            <p>Vi­va­mus rutrum nunc non neque con­secte­tur quis plac­erat neque lobor­tis. Nam vestibu­lum, arcu so­dales feu­giat con­secte­tur, nisl orci biben­dum elit, eu eu­is­mod magna sapien ut nibh.</p>
+
+            <p>Nunc eu ul­lam­cor­per orci. Quisque eget odio ac lec­tus vestibu­lum fau­cibus eget in metus. In pel­len­tesque fau­cibus vestibu­lum. Nulla at. vestibu­lum. Nulla at.</p>
+            <p>Vi­va­mus rutrum nunc non neque con­secte­tur quis plac­erat neque lobor­tis. Nam vestibu­lum, arcu so­dales feu­giat con­secte­tur, nisl orci biben­dum elit, eu eu­is­mod magna sapien ut nibh.</p>
+
+            <p>Nunc eu ul­lam­cor­per orci. Quisque eget odio ac lec­tus vestibu­lum fau­cibus eget in metus. In pel­len­tesque fau­cibus vestibu­lum. Nulla at. vestibu­lum. Nulla at.</p>
+          </div>
+        </article>
+    </div>
+  </div><!-- #main -->
+
+  <footer id="authors">
+    <section>
+      <h1>Alexis Gold­stein</h1>
+      <p>Mae­ce­nas quis tor­tor arcu. Vi­va­mus rutrum nunc non neque con­secte­tur quis plac­erat neque lobor­tis. Nam vestibu­lum, arcu so­dales feu­giat con­secte­tur, nisl orci biben­dum elit, eu eu­is­mod magna sapien ut nibh.</p>
+    </section>
+
+    <section>
+      <h1>Louis Lazaris</h1>
+      <p>Mae­ce­nas quis tor­tor arcu. Vi­va­mus rutrum nunc non neque con­secte­tur quis plac­erat neque lobor­tis. Nam vestibu­lum, arcu so­dales feu­giat con­secte­tur, nisl orci biben­dum elit, eu eu­is­mod magna sapien ut nibh.</p>
+    </section>
+
+    <section>
+      <h1>Es­telle Weyl</h1>
+      <p>Mae­ce­nas quis tor­tor arcu. Vi­va­mus rutrum nunc non neque con­secte­tur quis plac­erat neque lobor­tis. Nam vestibu­lum, arcu so­dales feu­giat con­secte­tur, nisl orci biben­dum elit, eu eu­is­mod magna sapien ut nibh.</p>
+    </section>
+
+  </footer>
+    <script src="js/scripts.js"> </script>
+    <script src="js/hyphenator.js"></script>
+    <script src="js/raphael-min.js"></script>
+  </body>
+</html>
