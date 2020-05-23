@@ -5,6 +5,23 @@
   padding: 0;
 }
 
+/* Light mode */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: black;
+    }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
+
+
 li, a {
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
@@ -46,7 +63,7 @@ header{
 
 
 main{
-  color: #000000;
+  /*color: #000000;*/
   text-align: center;
   align-items: center;
   display: grid;
