@@ -3,7 +3,7 @@
 }
 
 main{
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .twitter-follow-button{
@@ -11,5 +11,5 @@ main{
 }
 
 .g-ytsubscribe{
-  grid-row: 2;
+  grid-row: 3;
 }
