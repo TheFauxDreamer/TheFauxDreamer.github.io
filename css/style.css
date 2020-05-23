@@ -3,7 +3,7 @@
 }
 
 main{
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 150px 1fr;
 }
 
 .col1{
