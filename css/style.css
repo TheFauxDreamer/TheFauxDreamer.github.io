@@ -98,8 +98,9 @@ main h2{
   /*flex-direction: column;*/
 }
 
-#right{
-  justify-content: flex-end;
+
+.subtopic{
+  /*background-color: gold;*/
 }
 
 .topic3{
