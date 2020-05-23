@@ -2,6 +2,14 @@
   font-family: sans-serif;
 }
 
+main{
+  grid-template-rows: 1fr 1fr;
+}
+
+.twitter-follow-button{
+  grid-row: 1;
+}
+
 .g-ytsubscribe{
-  float: left;
+  grid-row: 2;
 }
