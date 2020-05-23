@@ -98,9 +98,8 @@ main h2{
   align-items: center;
 }
 
-.subtopicr{
-  padding: 10px;
-  margin: 10px;
+.subtopic{
+  padding-right: 5px;
 }
 
 .topic3{
