@@ -3,13 +3,13 @@
 }
 
 main{
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .twitter-follow-button{
-  grid-row: 1;
+  grid-column: 1;
 }
 
 .g-ytsubscribe{
-  grid-row: 3;
+  grid-column: 3;
 }
