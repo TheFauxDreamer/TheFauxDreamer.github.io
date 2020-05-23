@@ -9,14 +9,14 @@
 @media (prefers-color-scheme: light) {
     body {
         background-color: white;
-        color: black;
+        color: #191919;
     }
 }
 
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: black;
+        background-color: #191919;
         color: white;
     }
 }
@@ -94,6 +94,12 @@ main h2{
 .topic2{
   grid-column: 1;
   grid-row: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+#right{
+  justify-content: flex-end;
 }
 
 .topic3{
