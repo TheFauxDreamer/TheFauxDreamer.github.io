@@ -96,12 +96,6 @@ main h2{
   grid-row: 3;
   display: flex;
   align-items: center;
-  /*flex-direction: column;*/
-}
-
-
-.subtopicr{
-  background-color: gold;
 }
 
 .topic3{
