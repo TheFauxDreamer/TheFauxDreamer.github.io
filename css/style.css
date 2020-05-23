@@ -14,10 +14,10 @@ main{
   grid-column: 3;
 }
 
-.twitter-follow-button{
+.twitterfollow{
   grid-column: 1;
 }
 
-.g-ytsubscribe{
+.ytsubscribe{
   grid-column: 3;
 }
