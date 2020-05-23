@@ -6,6 +6,14 @@ main{
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.ONES{
+  grid-column: 1;
+}
+
+.twos{
+  grid-column: 3;
+}
+
 .twitter-follow-button{
   grid-column: 1;
 }
